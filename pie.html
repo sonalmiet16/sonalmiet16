@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="85216f44-fa02-49ba-bad7-877bc9a35b2b" data-root-id="1088"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1183">
+          {"a0c3ff74-bef2-4e0d-bf85-839d11dca5a6":{"roots":{"references":[{"attributes":{},"id":"1122","type":"BasicTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1109","type":"HoverTool"}]},"id":"1110","type":"Toolbar"},{"attributes":{},"id":"1126","type":"UnionRenderers"},{"attributes":{"grid_line_color":null,"ticker":{"id":"1100","type":"BasicTicker"}},"id":"1103","type":"Grid"},{"attributes":{"source":{"id":"1114","type":"ColumnDataSource"}},"id":"1119","type":"CDSView"},{"attributes":{"callback":null,"data":{"Country":["China","India","US","Indonesia","Brazil","Pakistan","Nigeria","Bangladesh","Russia","Mexico"],"Population":[1420000000,1368000000,329000000,269000000,212000000,204000000,200000000,168000000,143000000,132000000],"angle":{"__ndarray__":"iQv87MwOAEDawbY8h/D+P6JsdZ90w90/VONHouNV2D+vbSkYzS3TPz85AZCGdNI/Bh/tS+MX0j+FmphWkmXOP8RSnYOZ38k/jcIujRfixz8=","dtype":"float64","shape":[10]},"color":["#3182bd","#6baed6","#9ecae1","#c6dbef","#e6550d","#fd8d3c","#fdae6b","#fdd0a2","#31a354","#74c476"],"index":[0,1,2,3,4,5,6,7,8,9]},"selected":{"id":"1125","type":"Selection"},"selection_policy":{"id":"1126","type":"UnionRenderers"}},"id":"1114","type":"ColumnDataSource"},{"attributes":{"axis_label":null,"formatter":{"id":"1122","type":"BasicTickFormatter"},"ticker":{"id":"1100","type":"BasicTicker"}},"id":"1099","type":"LinearAxis"},{"attributes":{},"id":"1100","type":"BasicTicker"},{"attributes":{},"id":"1124","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"1114","type":"ColumnDataSource"},"glyph":{"id":"1116","type":"Wedge"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1117","type":"Wedge"},"selection_glyph":null,"view":{"id":"1119","type":"CDSView"}},"id":"1118","type":"GlyphRenderer"},{"attributes":{"axis_label":null,"formatter":{"id":"1124","type":"BasicTickFormatter"},"ticker":{"id":"1105","type":"BasicTicker"}},"id":"1104","type":"LinearAxis"},{"attributes":{},"id":"1125","type":"Selection"},{"attributes":{"end_angle":{"expr":{"id":"1113","type":"CumSum"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"#1f77b4"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"1112","type":"CumSum"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"1116","type":"Wedge"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"1105","type":"BasicTicker"}},"id":"1108","type":"Grid"},{"attributes":{"callback":null},"id":"1093","type":"DataRange1d"},{"attributes":{},"id":"1105","type":"BasicTicker"},{"attributes":{"end_angle":{"expr":{"id":"1113","type":"CumSum"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"1112","type":"CumSum"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"1117","type":"Wedge"},{"attributes":{"below":[{"id":"1099","type":"LinearAxis"}],"center":[{"id":"1103","type":"Grid"},{"id":"1108","type":"Grid"}],"left":[{"id":"1104","type":"LinearAxis"}],"plot_height":400,"renderers":[{"id":"1118","type":"GlyphRenderer"}],"title":{"id":"1089","type":"Title"},"toolbar":{"id":"1110","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1091","type":"Range1d"},"x_scale":{"id":"1095","type":"LinearScale"},"y_range":{"id":"1093","type":"DataRange1d"},"y_scale":{"id":"1097","type":"LinearScale"}},"id":"1088","subtype":"Figure","type":"Plot"},{"attributes":{"field":"angle","include_zero":true},"id":"1112","type":"CumSum"},{"attributes":{"callback":null,"start":-0.5},"id":"1091","type":"Range1d"},{"attributes":{"callback":null,"tooltips":"@Country: @Population"},"id":"1109","type":"HoverTool"},{"attributes":{"field":"angle"},"id":"1113","type":"CumSum"},{"attributes":{"text":"Top 10 Countries by Population"},"id":"1089","type":"Title"},{"attributes":{},"id":"1095","type":"LinearScale"},{"attributes":{},"id":"1097","type":"LinearScale"}],"root_ids":["1088"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1183').textContent;
+                  var render_items = [{"docid":"a0c3ff74-bef2-4e0d-bf85-839d11dca5a6","roots":{"1088":"85216f44-fa02-49ba-bad7-877bc9a35b2b"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
